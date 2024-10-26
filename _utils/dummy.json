@@ -1,0 +1,46 @@
+{
+  "id": 123,
+  "name": "John Doe",
+  "isActive": true,
+  "balance": 1000.75,
+  "address": {
+    "street": "123 Main St",
+    "city": "Metropolis",
+    "state": "CA",
+    "zipCode": "90210"
+  },
+  "hobbies": ["reading", "gaming", "cooking"],
+  "metadata": null,
+  "favorites": {
+    "colors": ["blue", "green", "red"],
+    "numbers": [1, 2, 3.5, 4],
+    "isVerified": false,
+    "details": {
+      "likesCats": true,
+      "likesDogs": false
+    }
+  },
+  "history": [
+    {
+      "action": "login",
+      "timestamp": "2024-10-26T08:30:00Z"
+    },
+    {
+      "action": "purchase",
+      "timestamp": "2024-10-25T15:45:00Z",
+      "amount": 250.50,
+      "items": [
+        {
+          "name": "Laptop",
+          "price": 1000.99,
+          "quantity": 1
+        },
+        {
+          "name": "Headphones",
+          "price": 150.25,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
